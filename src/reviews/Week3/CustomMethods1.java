@@ -1,0 +1,46 @@
+package Week3;
+
+public class CustomMethods1 {
+
+	public static void main(String[] args) {
+		
+//		int person1 = 10;
+//        if (person1>=21) {
+//            System.out.println("Eligible to buy");
+//        }else {
+//            System.out.println("NOT Eligible to buy");
+//        }
+//
+//        int person2 = 20;
+//        if (person2>=21) {
+//            System.out.println("Eligible to buy");
+//        }else {
+//            System.out.println("NOT Eligible to buy");
+//        }
+//
+//        int person3 = 24;
+//        if (person3>=21) {
+//            System.out.println("Eligible to buy");
+//        }else {
+//            System.out.println("NOT Eligible to buy");
+//        }
+		int person1 = 10;
+		eligibleOrNot(person1);
+		
+		eligibleOrNot(20);
+		
+		eligibleOrNot(24);
+		
+
+	}
+	public static void eligibleOrNot(int age) {
+		
+		int person = age;
+		if (person>=21) {
+          System.out.println("Eligible to buy");
+		}else {
+          System.out.println("NOT Eligible to buy");
+		}	
+	}
+
+}
