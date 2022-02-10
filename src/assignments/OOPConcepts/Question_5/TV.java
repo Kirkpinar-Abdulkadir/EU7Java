@@ -11,6 +11,7 @@ public class TV {
     }
 
     public TV(String brand) {
+        this.brand = brand;
         System.out.println("Creating TV object using 1 arg - constructor");
     }
 

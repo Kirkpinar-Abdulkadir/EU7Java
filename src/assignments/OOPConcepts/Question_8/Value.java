@@ -1,22 +1,22 @@
 package assignments.OOPConcepts.Question_8;
 
 public class Value {
-    int param;
+    int val;
 
     public static void main(String[] args) {
-        Value val = new Value();
-        System.out.println(val.param);
+        Value vl = new Value();
+        System.out.println(vl.val);
     }
 
     public Value() {
     }
 
-    public Value(int param) {
-        this.param = param;
+    public Value(int val) {
+        this.val = val;
     }
 
-    public void setVal(int param) {
-        this.param = param;
+    public void setVal(int val) {
+        this.val = val;
     }
 
     public boolean wasModified(){

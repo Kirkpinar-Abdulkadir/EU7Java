@@ -6,9 +6,12 @@ public class Db {
 
     public static void main(String[] args) {
         Db db = new Db();
+
         db.inserData("aaa",123);
+
         System.out.println(db.getData());
         System.out.println(db.getYint());
+
         db.setData("zzz");
         db.setYint(200);
         System.out.println(db.getData());
